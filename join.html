@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Page</title>
+    <style>
+        body {
+            background-image: url('https://thegamingsetup.com/wp-content/uploads/image-73.png'); /* Replace with your image path or URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: red; /* Set background color to red */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .header h2 {
+            margin-left: 20px; /* Adjust the margin to position the second header to the right */
+            color: blue;
+        }
+        .links {
+            margin-left: 475px; /* Adjust the margin to move the links significantly to the right */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color:aqua">Welcome To The Games Page</h1>
+        <h2>by Nirdvaith and Swayam</h2>
+    </div>
+    <hr>
+    <p>Here are some useful links For Games (more to be added soon!!!):</p>
+    <ul class="links">
+        <li><a href="https://www.cbc.ca/kids/games">CBC is a place with many games. Some popular ones include paws and claws.</a></li>
+        <li><a href="https://unblocked-games.s3.amazonaws.com/index.html">A site like Poki, A popular game is troll level (get trolled!!!)</a></li>
+        <li><a href="https://example.com">Example Link 3</a></li>
+    </ul>
+    <button onclick="openStudyPage()">Next</button>
+    <button onclick="goBack()">Back</button>
+
+    <script>
+        function openStudyPage() {
+            window.location.href = 'study.html';
+        }
+
+        function goBack() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>
